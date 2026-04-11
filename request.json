@@ -1,0 +1,46 @@
+// Средний фактический расход (л/100 км) и средняя стоимость за км по типу авто и топливу
+db.Cars_fuel_efficiency_benchmark.aggregate([
+  {
+    $group: {
+      _id: { vehicle_type: "$vehicle_type", fuel_type: "$fuel_type" },
+      trips: { $sum: 1 },
+      avg_kmpl: { $avg: "$actual_mileage_kmpl" },
+      avg_cost_per_km: { $avg: "$cost_per_km_usd" },
+      total_fuel_L: { $sum: "$fuel_consumed_L" },
+      total_km: { $sum: "$distance_km" }
+    }
+  },
+  {
+    $addFields: {
+      avg_L_per_100km: { $divide: [100, "$avg_kmpl"] }
+    }
+  },
+  { $sort: { avg_kmpl: -1 } }
+])
+
+
+// Лучшие по эффективности топливо
+db.Cars_fuel_efficiency_benchmark.find(
+  { outlier_flag: false, data_quality_score: { $gte: 80 } },
+  {
+    trip_id: 1, car_name: 1, actual_mileage_kmpl: 1,
+    base_mileage_kmpl: 1, fuel_efficiency_ratio: 1, trip_category: 1
+  }
+).sort({ fuel_efficiency_ratio: -1 }).limit(5)
+
+
+// Затраты денег на пройденное нрасстояние
+db.Cars_fuel_efficiency_benchmark.aggregate([
+  { $match: { outlier_flag: false } },
+  {
+    $group: {
+      _id: "$trip_category",
+      avg_fuel_cost: { $avg: "$fuel_cost_usd" },
+      avg_cost_per_km: { $avg: "$cost_per_km_usd" },
+      total_fuel_L: { $sum: "$fuel_consumed_L" }
+    }
+  },
+  { $sort: { avg_cost_per_km: -1 } }
+])
+
+
