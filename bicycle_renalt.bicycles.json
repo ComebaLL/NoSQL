@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Стелс Навигатор 500",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "17",
+      "lifting capacity": 120
+    }
+  },
+  {
+    "id": 2,
+    "name": "Трек Марлин 5",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "18.5",
+      "lifting capacity": 130
+    }
+  },
+  {
+    "id": 3,
+    "name": "Форвард Апач 27.5",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "19",
+      "lifting capacity": 125
+    }
+  },
+  {
+    "id": 4,
+    "name": "Джайант Талон 3",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "20",
+      "lifting capacity": 130
+    }
+  },
+  {
+    "id": 5,
+    "name": "Куб Эйм Про",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "18",
+      "lifting capacity": 120
+    }
+  },
+  {
+    "id": 6,
+    "name": "Мерида Биг Найн 20",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "21",
+      "lifting capacity": 135
+    }
+  },
+  {
+    "id": 7,
+    "name": "Скотт Аспект 960",
+    "type": "горный",
+    "characteristics": {
+      "frame size": "19",
+      "lifting capacity": 125
+    }
+  },
+  {
+    "id": 8,
+    "name": "Формат 1413",
+    "type": "городской",
+    "characteristics": {
+      "frame size": "17",
+      "lifting capacity": 110
+    }
+  },
+  {
+    "id": 9,
+    "name": "Автор Компакт",
+    "type": "городской",
+    "characteristics": {
+      "frame size": "16",
+      "lifting capacity": 105
+    }
+  },
+  {
+    "id": 10,
+    "name": "Электра Тауни 7D",
+    "type": "городской",
+    "characteristics": {
+      "frame size": "17.5",
+      "lifting capacity": 115
+    }
+  },
+  {
+    "id": 11,
+    "name": "Швинн Сабурбан",
+    "type": "городской",
+    "characteristics": {
+      "frame size": "18",
+      "lifting capacity": 115
+    }
+  },
+  {
+    "id": 12,
+    "name": "Старк Аутпост",
+    "type": "гибридный",
+    "characteristics": {
+      "frame size": "19",
+      "lifting capacity": 120
+    }
+  },
+  {
+    "id": 13,
+    "name": "Кэннондейл Квик 6",
+    "type": "гибридный",
+    "characteristics": {
+      "frame size": "18.5",
+      "lifting capacity": 120
+    }
+  },
+  {
+    "id": 14,
+    "name": "Спешалайзд Сиррус 2.0",
+    "type": "гибридный",
+    "characteristics": {
+      "frame size": "20",
+      "lifting capacity": 125
+    }
+  },
+  {
+    "id": 15,
+    "name": "Норко Инди 4",
+    "type": "гибридный",
+    "characteristics": {
+      "frame size": "19",
+      "lifting capacity": 120
+    }
+  },
+  {
+    "id": 16,
+    "name": "Бьянки Виа Нироне 7",
+    "type": "шоссейный",
+    "characteristics": {
+      "frame size": "54",
+      "lifting capacity": 100
+    }
+  },
+  {
+    "id": 17,
+    "name": "Джайант Контенд 3",
+    "type": "шоссейный",
+    "characteristics": {
+      "frame size": "56",
+      "lifting capacity": 105
+    }
+  },
+  {
+    "id": 18,
+    "name": "Трек Домейн AL 2",
+    "type": "шоссейный",
+    "characteristics": {
+      "frame size": "58",
+      "lifting capacity": 110
+    }
+  },
+  {
+    "id": 19,
+    "name": "Полигон Страттос S2",
+    "type": "шоссейный",
+    "characteristics": {
+      "frame size": "55",
+      "lifting capacity": 105
+    }
+  },
+  {
+    "id": 20,
+    "name": "Бромптон C Лайн",
+    "type": "складной",
+    "characteristics": {
+      "frame size": "one size",
+      "lifting capacity": 110
+    }
+  }
+]

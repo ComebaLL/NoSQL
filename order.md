@@ -23,9 +23,7 @@
 ### bicycles
 
 - id
-- start 
-- end
-- duration
+- name
 - type
 - characteristics
     - frame size
