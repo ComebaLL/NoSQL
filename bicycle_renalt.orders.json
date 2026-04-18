@@ -9,33 +9,6 @@
     "cost": 900
   },
   {
-    "id": 2,
-    "client id": 2,
-    "bicycle id": 2,
-    "start": "2026-04-01 13:30",
-    "end": "2026-04-01 17:30",
-    "duration": 4,
-    "cost": 1400
-  },
-  {
-    "id": 3,
-    "client id": 3,
-    "bicycle id": 3,
-    "start": "2026-04-02 10:00",
-    "end": "2026-04-02 15:00",
-    "duration": 5,
-    "cost": 1600
-  },
-  {
-    "id": 4,
-    "client id": 4,
-    "bicycle id": 4,
-    "start": "2026-04-02 16:00",
-    "end": "2026-04-02 19:00",
-    "duration": 3,
-    "cost": 1050
-  },
-  {
     "id": 5,
     "client id": 5,
     "bicycle id": 5,
@@ -54,24 +27,6 @@
     "cost": 2100
   },
   {
-    "id": 7,
-    "client id": 7,
-    "bicycle id": 7,
-    "start": "2026-04-04 09:30",
-    "end": "2026-04-04 13:30",
-    "duration": 4,
-    "cost": 1400
-  },
-  {
-    "id": 8,
-    "client id": 8,
-    "bicycle id": 8,
-    "start": "2026-04-04 14:00",
-    "end": "2026-04-04 16:00",
-    "duration": 2,
-    "cost": 600
-  },
-  {
     "id": 9,
     "client id": 9,
     "bicycle id": 9,
@@ -79,96 +34,6 @@
     "end": "2026-04-05 13:00",
     "duration": 3,
     "cost": 850
-  },
-  {
-    "id": 10,
-    "client id": 10,
-    "bicycle id": 10,
-    "start": "2026-04-05 15:00",
-    "end": "2026-04-05 20:00",
-    "duration": 5,
-    "cost": 1500
-  },
-  {
-    "id": 11,
-    "client id": 11,
-    "bicycle id": 11,
-    "start": "2026-04-06 08:00",
-    "end": "2026-04-06 10:00",
-    "duration": 2,
-    "cost": 600
-  },
-  {
-    "id": 12,
-    "client id": 12,
-    "bicycle id": 12,
-    "start": "2026-04-06 11:00",
-    "end": "2026-04-06 15:00",
-    "duration": 4,
-    "cost": 1300
-  },
-  {
-    "id": 13,
-    "client id": 13,
-    "bicycle id": 13,
-    "start": "2026-04-07 09:00",
-    "end": "2026-04-07 14:00",
-    "duration": 5,
-    "cost": 1600
-  },
-  {
-    "id": 14,
-    "client id": 14,
-    "bicycle id": 14,
-    "start": "2026-04-07 15:30",
-    "end": "2026-04-07 18:30",
-    "duration": 3,
-    "cost": 1050
-  },
-  {
-    "id": 15,
-    "client id": 15,
-    "bicycle id": 15,
-    "start": "2026-04-08 10:00",
-    "end": "2026-04-08 16:00",
-    "duration": 6,
-    "cost": 1800
-  },
-  {
-    "id": 16,
-    "client id": 16,
-    "bicycle id": 16,
-    "start": "2026-04-08 17:00",
-    "end": "2026-04-08 20:00",
-    "duration": 3,
-    "cost": 1200
-  },
-  {
-    "id": 17,
-    "client id": 17,
-    "bicycle id": 17,
-    "start": "2026-04-09 08:30",
-    "end": "2026-04-09 12:30",
-    "duration": 4,
-    "cost": 1600
-  },
-  {
-    "id": 18,
-    "client id": 18,
-    "bicycle id": 18,
-    "start": "2026-04-09 13:00",
-    "end": "2026-04-09 19:00",
-    "duration": 6,
-    "cost": 2400
-  },
-  {
-    "id": 19,
-    "client id": 19,
-    "bicycle id": 19,
-    "start": "2026-04-10 09:00",
-    "end": "2026-04-10 11:00",
-    "duration": 2,
-    "cost": 800
   },
   {
     "id": 20,
