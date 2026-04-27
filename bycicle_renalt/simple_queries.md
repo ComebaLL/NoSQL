@@ -3,8 +3,10 @@
 ## 1) Арендатор с максимальным чеком за год
 
 ```javascript
+
+// сделать описание запросов
 db.orders.aggregate([
-  { $match: { start: { $regex: "^2026" } } },
+  { $match: { start: { $regex: "^2026" } } },                                 
   { $group: { _id: "$client id", totalCheck: { $sum: "$cost" } } },
   { $sort: { totalCheck: -1 } },
   { $limit: 1 },
